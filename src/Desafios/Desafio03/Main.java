@@ -109,6 +109,7 @@ public class Main {
                     break;
             }
         }
+        scanner.close();
 
     }
     public static char eUchiha(Scanner scanner) {
