@@ -10,7 +10,7 @@ public class Uchiha extends Ninja {
     }
 
     public void mostrarHabilidadeEspecial(){
-        System.out.println("Meu nome é: " + getNome() + ". Essa é a minha habilidade especial: " + this.habilidadeEspecial);
+        System.out.println("Meu nome é: " + getNome() + ". Essa é a minha habilidade especial: " + getHabilidadeEspecial());
     }
 
     @Override
