@@ -17,11 +17,8 @@ public class Main {
         NinjaBasico Naruto = new NinjaBasico("Naruto", 16, "Rasengan", TipoHabilidade.NINJUTSU);
         Naruto.mostrarInformacoes();
         Naruto.executarHabilidade();
-        Scanner scanner = new Scanner(System.in);
         NinjaAvancado Kakashi = new NinjaAvancado("Kakashi", 40, "Invocação", TipoHabilidade.TAIJUTSU, "Sharingan");
         Kakashi.mostrarInformacoes();
         Kakashi.executarHabilidade();
-        scanner.close();
-
     }
 }
