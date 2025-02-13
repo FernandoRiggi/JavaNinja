@@ -1,6 +1,6 @@
 package Desafios.Desafio05;
 
 public interface Conta {
-    abstract void consultarSaldo();
-    abstract void depositar(double valor);
+    void consultarSaldo();
+    void depositar(double valor);
 }
