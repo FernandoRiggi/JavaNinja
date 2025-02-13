@@ -1,11 +1,15 @@
 package NivelIntermediario;
 
-public class Hokages {
+public abstract class  Hokages {
 
     String nome;
     int idade;
     boolean vivoOuMorto;
 
+
+    public abstract void sabedoria();
+
+    public abstract void teste();
     //NoArgs Constructor
     public Hokages(){
         //Contrutor Vazio, sem argumentos

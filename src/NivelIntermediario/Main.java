@@ -46,10 +46,9 @@ public class Main {
 //        boruto.ativarKarma();
 
 
-        Hokages hashirama = new Hokages();
-        hashirama.idade = 45;
+        Senju hashirama = new Senju();
+        hashirama.sabedoria();
 
-        Hokages Minato = new Hokages("Minato", 32, false);
-        System.out.println(Minato.nome);
+
     }
 }
