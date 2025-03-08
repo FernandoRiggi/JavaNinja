@@ -3,48 +3,14 @@ package NivelIntermediario;
 public class Main {
     public static void main(String[] args) {
 
-        //Criar Naruto como Objeto
-        //Uzumaki Naruto = new Uzumaki();
-        //Naruto.nome = "Naruto Uzumaki";
-//        Naruto.idade = 17;
-//        Naruto.aldeia = "Aldeia da folha";
-//        Naruto.modoSabio();
-        //Naruto.habilidadeEspecial();
 
+        System.out.println("-----------Naruto Uzumaki-----------");
+        Uzumaki naruto = new Uzumaki("Naruto Uzumaki", NivelNinja.GENIN, 15, "Aldeia da folha", 20, Biju.KURAMA );
+        System.out.println(naruto.biju);
 
-        //Criar Sasuke como Objeto
-        //Uchiha Sasuke = new Uchiha();
-        //Sasuke.nome = "Sasuke Uchiha";
-        //Sasuke.idade = 18;
-        //Sasuke.aldeia = "Aldeia da folha";
-        //Ativando Sharingan no Sasuke
-       // Sasuke.SharinganAtivado();
-        //Sasuke.habilidadeEspecial();
-
-        //Criar Sakura como Objeto
-//        Haruno Sakura = new Haruno();
-//        Sakura.nome = "Sakura haruno";
-//        Sakura.idade = 18;
-//        Sakura.aldeia = "Aldeia da folha";
-//        Sakura.ativarCura();
-
-        //Obejto Hinata
-//        Hyuga Hinata = new Hyuga();
-//        Hinata.nome = "Hinata Hyuga";
-//        Hinata.idade = 16;
-//        Hinata.aldeia = "Aldeia da folha";
-//        Hinata.byakuganAtivado();
-
-        //Boruto
-//        Boruto boruto = new Boruto();
-//        boruto.nome = "Boruto Hyuga Uzumaki";
-//        boruto.idade = 17;
-//        boruto.aldeia = "Aldeia da folha";
-
-//        boruto.modoSabio();
-//        boruto.ativarJougan();
-//        boruto.ativarKarma();
-
+        System.out.println("-----------Sasuke Uchiha-----------");
+        Uchiha sasuke = new Uchiha("Sasuke Uchiha", NivelNinja.GENIN, 30, "Aldeia da folha",  20);
+    sasuke.habilidadeEspecial();
 
         Senju hashirama = new Senju();
         hashirama.sabedoria();

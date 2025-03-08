@@ -1,6 +1,6 @@
 package NivelIntermediario;
 
-public enum Bijus {
+public enum Biju {
     SHUKAKU("Shukaku", "Gaara", 1),
     MATATABI("Matatabi", "Yugito Nii",2),
     ISOBU("Isobu", "Yagura", 3),
@@ -15,10 +15,10 @@ public enum Bijus {
     String jinchuriki;
     int numeroDeCaldas;
 
-    Bijus() {
+    Biju() {
     }
 
-    Bijus(String jinchuriki, String nomeBiju, int numeroDeCaldas) {
+    Biju(String jinchuriki, String nomeBiju, int numeroDeCaldas) {
         this.jinchuriki = jinchuriki;
         this.nomeBiju = nomeBiju;
         this.numeroDeCaldas = numeroDeCaldas;

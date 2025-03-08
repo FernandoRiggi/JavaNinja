@@ -1,8 +1,19 @@
 package NivelIntermediario;
 
 public class Uzumaki extends Ninja{
-    public void modoSabio(){
-        System.out.println("Meu nome é: " + nome + ". Ativei o modo Sabio pois sou um Uzumaki");
+
+    Biju biju;
+
+    public Uzumaki() {
+    }
+
+    public Uzumaki(String nome, NivelNinja rank, int numeroDeMissoesConcluidas, String aldeia, int idade) {
+        super(nome, rank, numeroDeMissoesConcluidas, aldeia, idade);
+    }
+
+    public Uzumaki(String nome, NivelNinja rank, int numeroDeMissoesConcluidas, String aldeia, int idade, Biju biju) {
+        super(nome, rank, numeroDeMissoesConcluidas, aldeia, idade);
+        this.biju = biju;
     }
 
     @Override
